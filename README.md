@@ -18,7 +18,8 @@
 - pydantic - для валидации json-ответов
 - pytest - для выполненитя тестового кода
 
-Для запуска тестов внутри контейнера
+---
+Для запуска тестов внутри контейнера:
 ```console
 foo@bar:~PROJECT_PATH$ docker build -t pytest_container_image . 
 foo@bar:~PROJECT_PATH$ docker run --rm -ti pytest_container_image /bin/sh
